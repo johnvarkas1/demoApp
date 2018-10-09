@@ -12,6 +12,6 @@ public class MyRestController {
 
     @RequestMapping("/login")
     private String tmpMethod() {
-        return service.tmpMehtod("hello world");
+        return service.tmpMehtod("hello world my");
     }
 }
