@@ -3,6 +3,6 @@ node {
         git "https://github.com/johnvarkas1/jenkins"
     }
     stage('Compile-Package') {
-        sh 'mvn -f /pom.xml package'
+        sh 'mvn -f pom.xml package'
     }
 }
