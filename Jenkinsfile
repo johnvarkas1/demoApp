@@ -2,7 +2,7 @@ node {
     stage('SCM Checkout') {
         git "https://github.com/johnvarkas1/jenkins"
     }
-    stage('Compile-Package') {
+    stage('Compile-Package') { 
         sh 'mvn -f demo/pom.xml clean package'
     }
 }
